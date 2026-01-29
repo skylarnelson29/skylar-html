@@ -1,15 +1,10 @@
 p {
-	color: #666666;
+	color: #FFC0CB;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
     font-family: Verdana, Arial, sans-serif;
-}
-
-#container{
-    width: 95%;
-    margin: 0 auto;
 }
 
 #nav {
@@ -33,10 +28,6 @@ h1 {
     text-decoration: none;
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
-}
-
-#nav a:hover, a:active {
-    background-color: #7a991a;
 }
 
 .caption {
