@@ -13,12 +13,12 @@ h1 {
 #container{
     width: 95%;
     margin: 0 auto;
-
 }
 
-#nav ul{
-    padding: 0;
+#nav ul {
+    padding: 100;
     list-style-type: none;
+
     
 }
 
@@ -39,6 +39,7 @@ h1 {
     text-decoration: none;
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
+
 }
 
 #nav a:hover, a:active {
