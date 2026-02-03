@@ -3,6 +3,9 @@ p {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body{
+    background-color:#ebe3ce;
+}
 h1 {
     font-family: Georgia, "Times New Roman", serif;
 }
