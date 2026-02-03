@@ -18,6 +18,7 @@ h1 {
 #nav {
     padding: 0;
     list-style-type: none;
+    float:left;
 }
 
 #nav li {
@@ -25,6 +26,7 @@ h1 {
     padding: 0;
     border-bottom: 1px solid #ccc;
     text-decoration: none;
+    list-style-type: none;
 }
 
 #nav a:link, a:visited {
