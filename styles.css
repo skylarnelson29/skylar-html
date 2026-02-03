@@ -43,6 +43,7 @@ h1 {
 
 #nav a:hover, a:active {
     background-color: #7a991a;
+
 }
 
 .caption {
@@ -51,7 +52,7 @@ h1 {
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
-    text-align: right;
+    text-align: center;
 }
 
 #footer {
