@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 
 p {
 
@@ -17,7 +24,7 @@ body{
     background-color:#ebe3ce;
 }
 h1 {
-    font-family:"Oswald", Helvetica, "Arial", sans-serif;
+    font-family:"playfair-display-", Helvetica, "Arial", sans-serif;
 }
 
 #container{
