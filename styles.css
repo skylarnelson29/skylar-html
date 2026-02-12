@@ -1,14 +1,23 @@
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 p {
 
     color: #666666;
-    font-family: "Merriweather", Helvetica, "Arial", sans-serif;
+    font-family: "Oswald", Helvetica, "Arial", sans-serif;
 }
 
 body{
     background-color:#ebe3ce;
 }
 h1 {
-    font-family: "Merriweather Sans", Helvetica, "Arial", sans-serif;
+    font-family:"Oswald", Helvetica, "Arial", sans-serif;
 }
 
 #container{
@@ -38,7 +47,7 @@ h1 {
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Oswald",Helvetica, Arial, sans-serif;
 
 }
 
@@ -49,7 +58,7 @@ h1 {
 
 .caption {
     color: black;
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
