@@ -95,6 +95,10 @@ img {
 }
 
 
-
+@media (min-width:400px){
+.navigation{
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
 
 
