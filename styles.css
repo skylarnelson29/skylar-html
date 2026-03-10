@@ -89,16 +89,94 @@ img {
 }
 
 @media (min-width:800px){
-.navigation{
+.nav{
   flex-flow: row wrap;
   justify-content: flex-end;
 }
+.nav a{
+  border-top:none;
+  border-bottom:none;
+}
+.nav a:hover{
+  background:black;
+}
 
+.first {
+  margin-right: auto;
+}
 
-@media (min-width:400px){
-.navigation{
+.main{
+  display:flex;
+  flex-flow:row;
+}
+
+img{
+  width:50%;
+  height:200px;
+  margin-right:10px;
+}
+
+}
+.wrapper{
+  display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header, .main, .aside, .footer{
+  flex: 1 100%;
+  padding: 10px;
+}
+
+.header{
+  background: tomato;
+}
+
+.footer{
+  background: lightgreen;
+}
+
+.main{
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1{
+  background: gold;
+}
+
+.aside-2{
+  background: hotpink;
+}
+
+
+/*Flexbox items can be given different widths. An item with a flexbox of 2 is twice as flexible as one with a flex of 1. So it makes sense that we want our main section to be the most flexible in this example. */
+@media (min-width: 800px){
+  .aside{
+    flex: 1 auto;
+  }
+
+  .main {
+    flex: 3 0px;
+  }
+
+  .aside-1{
+    order:1;
+  }
+  .main{
+    order: 2;
+  }
+  .aside-2{
+    order: 3;
+  }
+  .footer{
+    order: 4;
+  }
+}
+
+body {
+  padding: 2em;
 }
 
 
